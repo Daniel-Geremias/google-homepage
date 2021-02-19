@@ -1,3 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
+body a {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+.top-nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: left;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: right;
 }
