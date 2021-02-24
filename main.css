@@ -33,9 +33,9 @@ body {
 
 .search-engine {
     display: block;
-    position: absolute;
     padding: 20px;
     max-height: 160px;
+    box-sizing: border-box;
 }
 
 .search-bar {
@@ -47,6 +47,30 @@ body {
     z-index: 3;
     height: 44px;
     margin: 0 auto;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 #222;
+}
+
+.search-input {
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    height: 34px;
+    font-size: 16px;
+}
+
+.search-buttons {
+    display: block;
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    text-align: center;
 }
 
 .lang {
